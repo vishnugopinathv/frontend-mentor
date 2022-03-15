@@ -27,6 +27,6 @@ body{
 @media (max-width:480px){
     .container{
         width: 75vw;
-        margin-top: 5rem;
+        margin-top: 7.5rem;
     }
 }
