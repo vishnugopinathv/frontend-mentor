@@ -1,0 +1,63 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    width: 16rem;
+    height: 29rem;
+    margin: auto;
+    font-family: 'Outfit',sans-serif;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1rem;
+    margin-top:7rem;
+    border-radius: 0.7rem;
+    box-shadow: 1px 1px 5px black;
+        
+}
+.equilibrium{
+    width: 16rem;
+    border-radius: 0.7rem;
+}
+.container h4{
+    color: white;
+}
+.container p{
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9rem;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:1rem ;
+}
+.ethereum{
+    color: cyan;
+    font-size: 0.8rem;
+}
+.clock{
+    color: hsl(215, 51%, 70%);
+    font-size: 0.8rem;
+}
+.ethereum img,.clock img{
+    padding-right: 0.3rem;
+    position: relative;
+    top: 0.2rem;
+}
+.creator{
+    color: white;
+}
+.creator img{
+    height: 1.7rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.text{
+    position: relative;
+    left: 0.7rem;
+    bottom: 0.7rem;
+}
+.sub-text{
+    color: white;
+}
+hr{
+    border: 1px solid rgb(88, 88, 88);
+}
