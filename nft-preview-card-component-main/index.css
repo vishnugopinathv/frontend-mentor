@@ -1,14 +1,19 @@
 body{
     background-color: hsl(217, 54%, 11%);
 }
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
+    position: relative;
     width: 19rem;
     height: 32rem;
-    margin: auto;
     font-family: 'Outfit',sans-serif;
     background-color: hsl(216, 50%, 16%);
     padding: 1rem;
-    margin-top:8.5rem;
     border-radius: 0.7rem;
     box-shadow: 1px 1px 5px black;
         
@@ -24,13 +29,14 @@ body{
     color: white;
 }
 .container p{
-    color: hsl(215, 51%, 70%);
+    color: rgb(139, 172, 218);
     font-size: 0.9rem;
 }
 .details{
     display: flex;
     justify-content: space-between;
     padding-bottom:1rem ;
+    border-bottom: 1px solid rgb(211, 211, 211,25%);
 }
 .ethereum{
     color: cyan;
@@ -67,4 +73,24 @@ body{
 }
 hr{
     border: 1px solid rgb(88, 88, 88);
+}
+.view{
+    width: 19rem;
+    background-color: rgb(0, 255, 255,50%);
+    height: 19rem;
+    position: absolute;
+    top: 1rem;
+    border-radius: 0.7rem;
+    display: none;
+    
+}
+.view img{
+    position: absolute;
+    left: 8rem;
+    top: 8rem;
+
+}
+.equilibrium:hover + div{
+    display:block;
+
 }
