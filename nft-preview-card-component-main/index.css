@@ -27,6 +27,7 @@ main{
 }
 .container h4{
     color: white;
+    cursor: pointer;
 }
 .container p{
     color: rgb(139, 172, 218);
@@ -67,6 +68,7 @@ main{
 }
 .sub-text{
     color: white;
+    cursor: pointer;
 }
 .sub-text:hover{
     color: cyan;
