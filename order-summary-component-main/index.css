@@ -37,7 +37,7 @@ main{
     background-color: hsl(225, 100%, 94%,50%);
     border-radius: 10px;
     position: relative;
-    padding: 1rem 0.5rem 0;
+    padding: 1rem 0.5rem 0.5rem;
 
 }
 .plan-container img{
@@ -56,10 +56,10 @@ main{
 }
 .sub-text{
     font-size: 0.75rem;
-    line-height: 0.5;
+    line-height: 0.15;
     position: absolute;
     left:4rem;
-    top: 0.5rem;
+    top: 0.75rem;
 }
 .proceed-button{
     font-size: 0.7rem;
