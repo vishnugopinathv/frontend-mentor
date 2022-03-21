@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  background-color: hsl(233, 47%, 7%);
+  
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+  width: 62rem;
+  gap: 10px;
+  margin: 1.5rem;
+}
+.image-container img {
+  width: 30rem;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg)
+    saturate(500%) contrast(1);
+}
+.text-container {
+  display: flex;
+  width: 28rem;
+  flex-direction: column;
+  color: white;
+  box-sizing: border-box;
+  padding: 3rem 4rem;
+  font-family: "Inter";
+}
+.text-container h1 {
+  font-size: 1.75rem;
+  text-align: left;
+}
+.sub-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.85rem;
+}
+.text-container span {
+  color: hsl(277, 64%, 61%);
+}
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+.numbers h1 {
+  font-size: 1.25rem;
+}
+.numbers p {
+  font-family: "Lexend Deca";
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.65rem;
+}
+@media (max-width:1144px){
+  .container{
+    width: 80vw;
+    height: 33vw;
+  }
+  .image-container img{
+    width: 40vw;
+    height: 33vw;
+  }
+  .text-container{
+    width: 40vw;
+    padding: 2vw 3vw;
+  }
+  .text-container h1{
+    font-size: 2.75vw;
+  }
+  .sub-text{
+    font-size: 1.3vw;
+  }
+  .numbers h1{
+    font-size:2vw ;
+  }
+  .numbers p{
+    font-size: 1vw;
+  }
+}
+@media (max-width:480px){
+    .container{
+      width: 75vw;
+      height: 90vh;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      text-align: center;
+    }
+    .image-container img{
+      width: 75vw;
+      height: 50vw;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 0;
+    }
+    .text-container{
+      width: 100%;
+      padding: 0 1.5rem;
+    }
+    .text-container h1{
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .sub-text{
+      font-size: 0.75rem;
+      line-height: 1.6;
+      margin-top: -1rem;
+    }
+    .numbers h1{
+      font-size:1.1rem ;
+    }
+    .numbers p{
+      font-size: 0.65rem;
+    }
+    .numbers {
+      height: 100%;
+      flex-direction: column;
+    }
+}
