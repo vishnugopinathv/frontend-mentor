@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background-color:darkcyan;
+}
+main{
+    position: relative;
+    display:flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Kumbh Sans";
+}
+.img-top,.img-bottom{
+    position: absolute;
+}
+.img-bottom{
+    top: 15rem;
+    left: 45vw;
+}
+.img-top{
+    bottom: 14rem;
+    right: 45vw;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    max-width: 375px;
+    width: 75%;
+    height: 375px;
+    background-image: url("./images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    background-size:100% 35%
+    
+}
+.social-status{
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.5;
+    width: 100%;
+    border-top: 1px solid rgb(0, 0, 0,0.25);
+   padding-top: 1rem;
+}
+.social-status p:nth-child(1){
+    font-size:20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.social-status p:nth-child(2){
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+.image-container{
+    position: absolute;
+    top: 5rem;
+    
+}
+.details p:first-child{
+    line-height: 0.1;
+    font-weight: bold;
+    font-size: 20px;
+}
+.details p:nth-child(2),.details span{
+    color: rgb(0, 0, 0,0.5);
+}
+.image-container img{
+    border: 6px solid white;
+    border-radius: 50%;
+    height:7rem;
+}
+
