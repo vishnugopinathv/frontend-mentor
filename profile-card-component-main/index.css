@@ -6,6 +6,7 @@ body{
 main{
     position: relative;
     display:flex;
+    width: 100%;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
@@ -14,14 +15,17 @@ main{
 }
 .img-top,.img-bottom{
     position: absolute;
+    /* height: 60rem; */
 }
 .img-bottom{
-    top: 15rem;
+    top: 18rem;
     left: 45vw;
+    width: 100vw;
 }
 .img-top{
-    bottom: 14rem;
+    bottom: 18rem;
     right: 45vw;
+    width: 100vw;
 }
 .container{
     position: relative;
